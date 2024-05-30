@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>실습문제3</title>
+  </head>
+  <body>
+    <h1>주문하기</h1>
+    <form action="">
+      <label for="">고객명 :</label>
+      <input type="text" name="name" value="김미경" /><br /><br />
+    </form>
+    <form action="">
+      <label for="">전화번호 :</label>
+      <input type="text" name="password" value="010-1234-5678" /><br /><br />
+    </form>
+    <form action=""></form>
+    <label for="">E-mail :</label>
+    <input type="text" name="email" value="user@google.com" /><br /><br />
+    <form action="">
+      <fieldset>
+        <legend>피자 사이즈</legend>
+        <label for="">
+          <input type="radio" name="pizzasize" value="small" /> Small
+          <br /><br />
+        </label>
+        <label for="">
+          <input type="radio" name="pizzasize" value="Medium" /> Medium
+          <br /><br />
+        </label>
+        <label for="">
+          <input type="radio" name="pizzasize" value="Large" checked /> Large
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>토핑선택</legend>
+        <label for="">
+          <input type="checkbox" name="topping" value="bacon" />
+          베이컨
+        </label>
+        <label for="">
+          <input type="checkbox" name="topping" value="cheese" />
+          치즈
+        </label>
+        <label for="">
+          <input type="checkbox" name="topping" value="onion" />
+          양파
+        </label>
+        <label for="">
+          <input type="checkbox" name="topping" value="mushroom" />
+          버섯
+        </label>
+      </fieldset>
+      <br />
+
+      희망배송시간: <input type="time" name="time" value="18:00" /><br /><br />
+      배송 시 요청사항:
+      <textarea name="memo" value="문 앞에 놓고 가주세요"></textarea>
+      <button>주문하기</button>
+    </form>
+  </body>
+</html>
