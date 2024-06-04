@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  position: fixed;
+}
+
+.container1 {
+  background: red;
+  height: 100vh;
+  display: flex;
+  flex-direction: ;
+}
+.container2 {
+  background: purple;
+  height: 100vh;
+}
+.container3 {
+  background: yellow;
+  height: 100vh;
+}

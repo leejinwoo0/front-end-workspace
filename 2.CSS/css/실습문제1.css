@@ -3,12 +3,44 @@ body {
 }
 #box {
   border: 1px solid white;
+  border-radius: 20px;
   width: 500px;
   height: 500px;
+  margin: auto;
 }
 #small-box1 {
   border-radius: 100px;
   border: 1px solid white;
   width: 200px;
   height: 200px;
+  position: relative;
+  right: -150px;
+  top: 10px;
+  background-image: url(/resources/bao.jpg);
+  background-size: contain;
+  background-size: 250px 250px;
+}
+#small-box2 {
+  border: 1px solid white;
+  width: 400px;
+  height: 70px;
+  position: relative;
+  bottom: -20px;
+  right: -50px;
+}
+#small-box3 {
+  border: 1px solid white;
+  width: 400px;
+  height: 70px;
+  position: relative;
+  bottom: -40px;
+  right: -50px;
+}
+#small-box4 {
+  border: 1px solid white;
+  width: 400px;
+  height: 70px;
+  position: relative;
+  bottom: -60px;
+  right: -50px;
 }
