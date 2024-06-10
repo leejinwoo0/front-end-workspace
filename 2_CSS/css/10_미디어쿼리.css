@@ -1,0 +1,14 @@
+body {
+  background: pink;
+}
+/* 700px 이상 적용 */
+@media screen and (min-width: 700px) {
+  body {
+    background: skyblue;
+  }
+}
+@media screen and (min-width: 1000px) {
+  body {
+    background: navy;
+  }
+}
