@@ -1,0 +1,21 @@
+form {
+  border: 1px solid black;
+}
+form div {
+  display: flex;
+  margin: 10px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+input {
+  padding: 10px;
+}
+label {
+  width: 150px;
+}
+button {
+  width: ;
+}
